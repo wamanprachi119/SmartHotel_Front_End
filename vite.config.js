@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 5173,
+    port: 5175,
     strictPort: true,
     open: false,
     // Proxy API calls to .NET backend — avoids CORS issues in development
